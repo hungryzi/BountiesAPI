@@ -42,7 +42,7 @@ const networks = {
     'localhost': 'localhost:8545',
 }
 
-const ethNetwork = process.env['eth_network'] || 'mainNet';
+const ethNetwork = process.env['eth_network'] || 'rinkeby';
 
 exports.ETH_NETWORK = ethNetwork;
 exports.ETH_NETWORK_URL = networks[ethNetwork];
